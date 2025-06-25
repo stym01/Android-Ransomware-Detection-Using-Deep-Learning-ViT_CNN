@@ -67,12 +67,6 @@ This project aims to accurately detect Android ransomware by analyzing behavior 
 
 ---
 
-## 📈 Visual Results
-
-Coming soon! Model visualizations and confusion matrices will be shared in this repo.
-
----
-
 ## 🏆 Achievements
 
 - 🥉 **Accepted at ICDAM 2025**
