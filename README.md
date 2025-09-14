@@ -1,6 +1,6 @@
-# 🔐 Android Ransomware Detection Using Deep Learning (ViT + CNN)
+# 🔐 Android Ransomware Detection Using Deep Learning (CNN)
 
-This repository presents a hybrid deep learning approach to detect **Android ransomware** by transforming **CuckooDroid** sandbox reports into image representations and classifying them using **Convolutional Neural Networks (CNNs)** and **Vision Transformers (ViT)**.
+This repository presents a hybrid deep learning approach to detect **Android ransomware** by transforming **CuckooDroid** sandbox reports into image representations and classifying them using **Convolutional Neural Networks (CNNs)**.
 
 🚨 **Accepted at ICDAM 2025** — _"From Behavior to Pixels: A Vision Transformer Approach for Android Ransomware Detection"_
 
@@ -16,8 +16,8 @@ This project aims to accurately detect Android ransomware by analyzing behavior 
 - 📊 **Traditional ML:** Converted JSON to CSV and trained a **Random Forest classifier** (Accuracy: 99.41%).
 - 🎨 **Image-Based DL:**
   - Transformed JSON reports into **RGB & Grayscale images**.
-  - Applied **CNN** and **ViT** models.
-  - Achieved **99.78% accuracy** with Vision Transformer.
+  - Applied **CNN**.
+  - Achieved **99.76% accuracy** with CNN.
 
 ---
 
@@ -36,7 +36,7 @@ This project aims to accurately detect Android ransomware by analyzing behavior 
 | Random Forest (ML)           | CSV              | 99.41        |
 | CNN                          | RGB Image        | 99.76        |
 | CNN                          | Grayscale Image  | 99.41        |
-| Vision Transformer (ViT)     | RGB Image        | **99.78**    |
+
 
 ---
 
@@ -46,7 +46,7 @@ This project aims to accurately detect Android ransomware by analyzing behavior 
 - 🐍 **Python**, **Pandas**, **Scikit-learn**
 - 🎨 **Matplotlib**, **Pillow** – JSON to Image
 - 🧠 **TensorFlow / Keras**, **PyTorch** – DL Models
-- 🧠 **ViT**, **CNN**
+- 🧠 **CNN**
 - 📊 **Random Forest** – Classical ML
 
 ---
@@ -63,14 +63,14 @@ This project aims to accurately detect Android ransomware by analyzing behavior 
 
 ### 3. **Deep Learning Pipeline**
    - Transformed JSON into images (RGB and Grayscale).
-   - Trained CNN and Vision Transformer models for classification.
+   - Trained CNN model for classification.
 
 ---
 
 ## 🏆 Achievements
 
 - 🥉 **Accepted at ICDAM 2025**
-- 📈 **ViT achieved 99.78% accuracy** — proving visual representations of behavior data are highly effective.
+- 📈 **CNN achieved 99.76% accuracy** — proving visual representations of behavior data are highly effective.
 
 ---
 
