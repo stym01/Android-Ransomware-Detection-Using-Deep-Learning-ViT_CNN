@@ -2,7 +2,7 @@
 
 This repository presents a hybrid deep learning approach to detect **Android ransomware** by transforming **CuckooDroid** sandbox reports into image representations and classifying them using **Convolutional Neural Networks (CNNs)**.
 
-🚨 **Accepted at ICDAM 2025** — _"From Behavior to Pixels: A Vision Transformer Approach for Android Ransomware Detection"_
+🚨 **Accepted at ICDAM 2025 (International Conference on Data Analytics & Management 2025)**
 
 ---
 
