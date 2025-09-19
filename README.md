@@ -31,12 +31,7 @@ This project aims to accurately detect Android ransomware by analyzing behavior 
 
 ## 🧪 Experiments & Results
 
-| Approach                      | Input Format     | Accuracy (%) |
-|------------------------------|------------------|--------------|
-| Random Forest (ML)           | CSV              | 99.41        |
-| CNN                          | RGB Image        | 99.76        |
-| CNN                          | Grayscale Image  | 99.41        |
-| Vision Transformer (ViT)     | RGB Image        | **99.78**    |
+![Performace matrices](/matrices.png)
 
 ---
 
